@@ -19,7 +19,7 @@ class Tablero {
 
   	let boton = document.getElementById("tirarDado");
   	boton.setAttribute("type","button");
-  	console.log(boton)
+  	
   	return boton;
   }
 
