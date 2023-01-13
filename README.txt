@@ -41,6 +41,7 @@ El juego termina cuando los jugadores no tienen fichas que colocar, si en la úl
 Este programa está compuesto por un archivo index.html, donde se muestra de forma dinámica el tablero del juego,
 independientemente del modo al que queramos jugar (texto/grafico).
 
+Los archivos js que controlan el juego se localizan en /script/*.js
 
 Contiene un archivo style.css, que contiene los estilos básicos de la página.
 
