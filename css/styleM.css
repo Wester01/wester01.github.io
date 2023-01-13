@@ -1,0 +1,95 @@
+@font-face{
+      font-family: 'Leorio';
+      src:url('../fonts/Leorio.ttf');
+}     
+
+*{
+      font-family: 'Leorio';
+      color:black;
+}
+.menu {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10%;
+      margin-left: 25%;
+      width:580px;
+      height:400px;
+      background-color: #eee;
+      background-image: url('portada_menu.png');
+      background-repeat: no-repeat;
+    }
+
+.fuera{
+      display:none;
+}
+.dentro{
+      display:flex;
+}
+
+.puchero{
+      width: 120px;
+      height: 120px;
+      background-color: red;
+      border-radius: 100%;
+}
+#marcoDerecho{
+      border:2px solid red;
+      background-color: lightblue;
+      position:absolute;
+      right:0;
+      padding-top: 10%;
+      padding-bottom: 3%;
+      z-index: 1;
+}
+#img_jugador{
+      width: 75px;
+      height: 75px;
+      border-radius: 100%;
+      background-color: #CECECE;
+      border:solid black 1px;
+}
+#tablero{
+      position: absolute;
+}
+
+.tableroTexto{
+      width: 50%;
+      height: 289px;
+      background-color: #F0F0F0;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+}
+table{
+      border:solid 2px;
+      text-align: center;
+      font-size: 2em;
+}
+table tr{
+      border:solid 2px;
+}
+table td{
+      border:solid 2px;
+}
+
+.dado{
+      height: 216px;
+      background-color: #EDEDED;
+      border:solid 1px grey;
+      font-size: 3em;
+      text-align: center;
+      padding-top: 5%;
+}
+
+.botonTexto{
+      
+      margin-top: 2%;
+      margin-bottom: 2%;
+      display:flex;
+      justify-content: center;
+      width: 100%;
+}
+
+.botonTexto button{
+      width:35%;
+      height:100%;
+}
